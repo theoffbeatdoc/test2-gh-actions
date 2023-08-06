@@ -16,7 +16,7 @@ async function run() {
 
   const octokit = github.getOctokit(GITHUB_TOKEN);
 
-  const octokit = github.getOctokit(GITHUB_TOKEN);
+  //const octokit = github.getOctokit(GITHUB_TOKEN);
 
   const { context = {} } = github;
   const { pull_request } = context.payload;
@@ -29,3 +29,5 @@ async function run() {
 }
 
 run();
+
+
