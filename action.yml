@@ -6,10 +6,7 @@ inputs:
   GITHUB_TOKEN:
     description: 'GitHub token'
     required: true
-  TENOR_TOKEN:
-    description: 'Tenor API token'
-    required: true
 
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
